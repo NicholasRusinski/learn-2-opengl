@@ -1,0 +1,11 @@
+﻿  main.cpp
+  window.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file '../src/window.cpp')
+  C:\Users\nicho\OneDrive\Desktop\openglproject\include\glad\glad.h(32,1):
+  see previous definition of 'APIENTRY'
+  
+  renderer.cpp
+  Generating Code...
+  glad.c
+  OpenGLProject.vcxproj -> C:\Users\nicho\OneDrive\Desktop\openglproject\build\Debug\OpenGLProject.exe

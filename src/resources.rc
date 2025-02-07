@@ -1,0 +1,3 @@
+#include "resource.h"
+
+IDI_MYICON ICON DISCARDABLE "C:\\Users\\nicho\\OneDrive\\Desktop\\openglproject\\res\\openglicon.ico"

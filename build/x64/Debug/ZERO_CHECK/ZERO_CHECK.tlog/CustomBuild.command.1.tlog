@@ -1,0 +1,10 @@
+^C:\USERS\NICHO\ONEDRIVE\DESKTOP\OPENGLPROJECT\BUILD\CMAKEFILES\750BF92D1D8106C1BD3A090804CC00A5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nicho/OneDrive/Desktop/openglproject -BC:/Users/nicho/OneDrive/Desktop/openglproject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/nicho/OneDrive/Desktop/openglproject/build/OpenGLProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
